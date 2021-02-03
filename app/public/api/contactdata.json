@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "header": "AADRESS",
+      "text": "Karamelli 6, 11318 Tallinn",
+      "footer_picture_src": "white_pin.png",
+      "contact_picture_src": "color_location.png"
+    },
+    {
+      "header": "TELEFON",
+      "text": "+372 569 691",
+      "footer_picture_src": "white_smartphone.png",
+      "contact_picture_src": "color_phone.png"
+    },
+    {
+      "header": "E-POST",
+      "text": "kliinik@tondi.ee",
+      "footer_picture_src": "white_mail.png",
+      "contact_picture_src": "color_email.png"
+    }
+  ]
+}

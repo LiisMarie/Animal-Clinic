@@ -1,0 +1,13 @@
+/* PAGE: GALERII */
+.galerii-pictures {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 5px;
+}
+
+.gallery {
+  padding: 30px 50px 50px;
+}
+
+/*# sourceMappingURL=page_gallery.css.map */

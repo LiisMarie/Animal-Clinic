@@ -1,0 +1,25 @@
+/* FOOTER */
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+  background: #008080;
+}
+footer .footer-icons {
+  float: left;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  padding-left: 20px;
+  height: 60px;
+}
+footer .footer__title {
+  color: white;
+  font-weight: bold;
+}
+footer .footer__text {
+  color: white;
+}
+
+/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,37 @@
+/* PAGE: TEENUSED JA HINNAD */
+
+.pricelist {
+  padding: 30px 50px 50px;
+
+  &__row-hover:hover {
+    background-color: $bg;
+  }
+
+  &__tablepress {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    margin-bottom: 1em;
+    border: none;
+  }
+
+  &__column-1 {
+    text-align: left;
+  }
+
+  &__column-2 {
+    text-align: right;
+  }
+
+  &__header-service {
+    padding-top: 10px;
+    text-align: center;
+  }
+}
+
+.pricelist__tablepress td, .pricelist__tablepress th {
+  padding: 8px;
+  border: none;
+  float: none;
+}
+

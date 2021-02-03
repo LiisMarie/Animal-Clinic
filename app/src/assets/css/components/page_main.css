@@ -1,0 +1,45 @@
+/* MAIN PAGE */
+.text-title {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  transform: translate(-30%, -50%);
+  font-size: 6vw;
+}
+
+.text-intro {
+  position: absolute;
+  top: 35%;
+  left: 15%;
+  transform: translate(-30%, -50%);
+  font-size: 2vw;
+}
+
+.btn-broneeri-aeg {
+  position: absolute;
+  top: 92%;
+  left: 10%;
+  transform: translate(-30%, -50%);
+  padding-left: 10px;
+  width: 17vw;
+}
+
+.btn-broneeri-aeg-text {
+  font-size: 1.5vw;
+}
+
+.container-picture {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.row-pictures {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60px;
+  padding-bottom: 25px;
+}
+
+/*# sourceMappingURL=page_main.css.map */

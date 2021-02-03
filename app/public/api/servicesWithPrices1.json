@@ -1,0 +1,39 @@
+{
+  "groups": [
+    {
+      "title": "VASTUVÕTT",
+      "serviceswithprices": [
+        {
+          "service": "Esmakordne", "price": "21€"},
+        {
+          "service": "Korduv", "price": "13€"},
+        {
+          "service": "Visiit ilma registreerumiseta", "price": "28€"}
+      ]
+    },
+    {
+      "title": "KOSMEETILISED PROTSEDUURID",
+      "serviceswithprices": [
+        {
+          "service": "Küünte lõikamine", "price": "10€"},
+        {
+          "service": "Kõrvade puhastamine", "price": "10€"},
+        {
+          "service": "Pärakupaunade puhastamine", "price": "10€"},
+        {
+          "service": "Noka lõikamine lindudel", "price": "10€"},
+        {
+          "service": "Mikrokiipimine", "price": "25€"}
+      ]
+    },
+    {
+      "title": "VAKTSINEERIMINE",
+      "serviceswithprices": [
+        {
+          "service": "Marutaudi vastu", "price": "17€"},
+        {
+          "service": "Kompleksvaktsiin", "price": "19-28€"}
+      ]
+    }
+  ]
+}

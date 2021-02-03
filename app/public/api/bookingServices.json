@@ -1,0 +1,43 @@
+{
+  "groups": [
+    {
+      "label": "Vastuvõtt",
+      "options": [
+        "Vastuvõtuaeg"
+      ]
+    },
+    {
+      "label": "Kastreerimine",
+      "options": [
+        "Isase kassi kastreerimine",
+        "Isase koera kastreerimine",
+        "Isase küüliku, tuhkru või närilise kastreerimine"
+      ]
+    },
+    {
+      "label": "Steriliseerimine",
+      "options": [
+        "Emase kassi kastreerimine",
+        "Emase koera kastreerimine",
+        "Emase küüliku, tuhkru või närilise kastreerimine"
+      ]
+    },
+    {
+      "label": "Kosmeetilised protseduurid",
+      "options": [
+        "Küünte lõikamine",
+        "Kõrvade puhastamine",
+        "Pärakupaunade puhastamine",
+        "Noka lõikamine lindudel",
+        "Mikrokiipimine"
+      ]
+    },
+    {
+      "label": "Vaktsineerimine",
+      "options": [
+        "Marutaudi vastu",
+        "Kompleksvaktsiin"
+      ]
+    }
+  ]
+}

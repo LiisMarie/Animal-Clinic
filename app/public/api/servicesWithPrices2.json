@@ -1,0 +1,38 @@
+{
+  "groups": [
+    {
+      "title": "KASTREERIMINE",
+      "serviceswithprices": [
+        {
+          "service": "Isane kass", "price": "60€"},
+        {
+          "service": "Isane koer kuni 10kg", "price": "200-250€"},
+        {
+          "service": "Isane koer 10kg-20kg", "price": "250-350€"},
+        {
+          "service": "Isane koer 20kg-40kg", "price": "350-400€"},
+        {
+          "service": "Isane koer 40kg+", "price": "400-450€"},
+        {
+          "service": "Küülik, tuhkur, närilised", "price": "75€"}
+      ]
+    },
+    {
+      "title": "STERILISEERIMINE",
+      "serviceswithprices": [
+        {
+          "service": "Emane kass", "price": "90€"},
+        {
+          "service": "Emane koer kuni 10kg", "price": "200-250€"},
+        {
+          "service": "Emane koer 10kg-20kg", "price": "250-350€"},
+        {
+          "service": "Emane koer 20kg-40kg", "price": "350-400€"},
+        {
+          "service": "Emane koer 40kg+", "price": "400-450€"},
+        {
+          "service": "Küülik, tuhkur, närilised", "price": "100€"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+.navbar-default {
+  background-color: $bg;
+  color: $primary-color;
+}
+
+.navbar-brand {
+  color: $primary-color;
+
+  &__logo {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+.navbar-brand:hover {
+   color: $link-hover;
+}
+
+.nav-link {
+  color: $primary-color;
+
+  &:hover {
+    color: $link-hover;
+  }
+}
+
+.active-nav-item {
+  background-color: $active-nav-item;
+  text-shadow: 0.3px 0.3px $link-hover;
+}
+
+
+

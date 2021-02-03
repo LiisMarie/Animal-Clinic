@@ -1,0 +1,91 @@
+/* PAGE: BRONEERI AEG */
+.booking {
+  padding: 20px 50px 75px;
+}
+
+.btn-group-vertical__time {
+  padding-bottom: 20px;
+  left: 25%;
+
+  button {
+    background-color: $primary-color;
+    border: 1px $btn-hover;
+    color: white;
+    padding: 10px 24px;
+    cursor: pointer;
+    width: 100%;
+    display: block;
+
+    &:not(:last-child) {
+      border-bottom: none;
+    }
+
+    &:hover {
+      background-color: $btn-hover;
+    }
+  }
+}
+
+.btn__action-broneeri-aeg {
+  background-color: $primary-color;
+  border-color: $primary-color;
+  color: white;
+
+  :hover {
+    background-color: $btn-hover;
+    border-color: $btn-hover;
+  }
+
+  :active {
+    background-color: $btn-active;
+    border-color: $btn-active;
+  }
+}
+
+.btn__redirect-to-main {
+  font-size: 17px;
+  width: 200px;
+  background-color: $primary-color;
+  border-color: $primary-color;
+  color: white;
+
+  :hover {
+    background-color: $btn-hover;
+    border-color: $btn-hover;
+  }
+
+  :active {
+    background-color: $btn-active;
+    border-color: $btn-active;
+  }
+}
+
+.booking-confirmation {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin: 0 -50% 0 0;
+  transform: translate(-50%, -50%);
+  padding-top: 30px;
+  text-align: center;
+}
+
+.datepicker--ui {
+  left: 25%;
+  padding-bottom: 20px;
+
+  table tr td.today {
+    background-color: $bg !important;
+    background-image: none !important;
+  }
+
+  table tr td.active {
+    background-image: none !important;
+    background-color: $primary-color !important;
+  }
+
+  table {
+    margin: 10px !important;
+    //background-color: #e13d3d;
+  }
+}

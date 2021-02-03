@@ -1,0 +1,25 @@
+@import "palette";
+@import "components/footer";
+@import "components/navbar";
+@import "components/page_gallery";
+@import "components/page_main";
+@import "components/page_teenusedjahinnad";
+@import "components/page_broneeriaeg";
+@import "components/page_kontakt";
+
+$theme-colors: (
+        "primary": #008080
+);
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background-color: $secondary-bg;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif !important;
+  padding-bottom: 250px;
+}
+
+@import "./../lib/bootstrap-4.4.1-dist/css/bootstrap-grid.css";// Variable Overrides

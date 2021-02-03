@@ -1,0 +1,294 @@
+/* FOOTER */
+@import "./../lib/bootstrap-4.4.1-dist/css/bootstrap-grid.css";
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+  background: #008080;
+}
+.footer__element {
+  padding-top: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+  display: -webkit-box;
+  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -ms-flexbox;
+  /* TWEENER - IE 10 */
+  display: -webkit-flex;
+  /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+  display: flex;
+  /* NEW, Spec - Firefox, Chrome, Opera */
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.footer__icon {
+  float: right;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  padding-left: 20px;
+  height: 60px;
+}
+.footer__title {
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.footer__text {
+  color: white;
+  font-size: 0.9em;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.navbar-default {
+  background-color: #ededed;
+  color: #008080;
+}
+
+.navbar-brand {
+  color: #008080;
+}
+.navbar-brand__logo {
+  height: 40px;
+  width: 40px;
+}
+
+.navbar-brand:hover {
+  color: #004a4a;
+}
+
+.nav-link {
+  color: #008080;
+}
+.nav-link:hover {
+  color: #004a4a;
+}
+
+.active-nav-item {
+  background-color: #e1e1e1;
+  text-shadow: 0.3px 0.3px #004a4a;
+}
+
+/* PAGE: GALERII */
+.gallery {
+  padding: 30px 50px 50px;
+}
+.gallery__picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+}
+
+/* MAIN PAGE */
+.btn__broneeri-aeg {
+  position: absolute;
+  top: 92%;
+  left: 10%;
+  transform: translate(-30%, -70%);
+  padding-left: 10px;
+  width: 26vw;
+  background-color: #008080;
+  border-color: #008080;
+  color: white;
+}
+.btn__broneeri-aeg :hover {
+  background-color: #006d6d;
+  border-color: #006d6d;
+}
+.btn__broneeri-aeg :active {
+  background-color: #004a4a;
+  border-color: #004a4a;
+}
+
+.btn__broneeri-aeg__text {
+  font-size: 2.2vw;
+}
+
+.container__picture {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.container__picture__text-title {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  transform: translate(-30%, -50%);
+  font-size: 6vw;
+}
+.container__picture__text-intro {
+  position: absolute;
+  top: 35%;
+  left: 11%;
+  transform: translate(-19%, -50%);
+  font-size: 2.2vw;
+}
+
+.introduction {
+  text-align: center;
+}
+.introduction__picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60px;
+  padding-bottom: 25px;
+}
+
+/* PAGE: TEENUSED JA HINNAD */
+.pricelist {
+  padding: 30px 50px 50px;
+}
+.pricelist__row-hover:hover {
+  background-color: #ededed;
+}
+.pricelist__tablepress {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  margin-bottom: 1em;
+  border: none;
+}
+.pricelist__column-1 {
+  text-align: left;
+}
+.pricelist__column-2 {
+  text-align: right;
+}
+.pricelist__header-service {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.pricelist__tablepress td, .pricelist__tablepress th {
+  padding: 8px;
+  border: none;
+  float: none;
+}
+
+/* PAGE: BRONEERI AEG */
+.booking {
+  padding: 20px 50px 75px;
+}
+
+.btn-group-vertical__time {
+  padding-bottom: 20px;
+  left: 25%;
+}
+.btn-group-vertical__time button {
+  background-color: #008080;
+  border: 1px #006d6d;
+  color: white;
+  padding: 10px 24px;
+  cursor: pointer;
+  width: 100%;
+  display: block;
+}
+.btn-group-vertical__time button:not(:last-child) {
+  border-bottom: none;
+}
+.btn-group-vertical__time button:hover {
+  background-color: #006d6d;
+}
+
+.btn__action-broneeri-aeg {
+  background-color: #008080;
+  border-color: #008080;
+  color: white;
+}
+.btn__action-broneeri-aeg :hover {
+  background-color: #006d6d;
+  border-color: #006d6d;
+}
+.btn__action-broneeri-aeg :active {
+  background-color: #004a4a;
+  border-color: #004a4a;
+}
+
+.btn__redirect-to-main {
+  font-size: 17px;
+  width: 200px;
+  background-color: #008080;
+  border-color: #008080;
+  color: white;
+}
+.btn__redirect-to-main :hover {
+  background-color: #006d6d;
+  border-color: #006d6d;
+}
+.btn__redirect-to-main :active {
+  background-color: #004a4a;
+  border-color: #004a4a;
+}
+
+.booking-confirmation {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin: 0 -50% 0 0;
+  transform: translate(-50%, -50%);
+  padding-top: 30px;
+  text-align: center;
+}
+
+.datepicker--ui {
+  left: 25%;
+  padding-bottom: 20px;
+}
+.datepicker--ui table tr td.today {
+  background-color: #ededed !important;
+  background-image: none !important;
+}
+.datepicker--ui table tr td.active {
+  background-image: none !important;
+  background-color: #008080 !important;
+}
+.datepicker--ui table {
+  margin: 10px !important;
+}
+
+/* PAGE: KONTAKT */
+.contact {
+  padding-top: 30px;
+}
+.contact__col {
+  padding-bottom: 20px;
+}
+.contact__icon {
+  float: left;
+  width: 75px;
+  padding-right: 20px;
+}
+
+.btn__saada-teade {
+  background-color: #008080;
+  border-color: #008080;
+  color: white;
+}
+.btn__saada-teade :hover {
+  background-color: #006d6d;
+  border-color: #006d6d;
+}
+.btn__saada-teade :active {
+  background-color: #004a4a;
+  border-color: #004a4a;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background-color: #fefefe;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif !important;
+  padding-bottom: 250px;
+}
+
+/*# sourceMappingURL=styles.css.map */
